@@ -75,7 +75,7 @@ This project is licensed under:
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 # Questions
-If you have any questions, please send them to my GitHub profile
+If you have any questions, please send them to my GitHub profile: https://github.com/jchoe125
 
 # Submission
 * GitHub repo: https://github.com/jchoe125/Employee-Tracker
