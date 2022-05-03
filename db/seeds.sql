@@ -1,10 +1,12 @@
 -- Inserting values into department table
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES 
 ('Administration/Operations'),
 ('Marketing/Sales'),
 ('Accounting/Finance'),
 ('Customer Service');
+
+SELECT * FROM department;
 
 -- Inserting values into role table
 INSERT INTO role (title, salary, department_id)
@@ -18,6 +20,8 @@ VALUES
 ('Customer Service Rep', 45000, 4),
 ('Customer Operations', 50000, 4);
 
+SELECT * FROM role;
+
 -- Inserting values into employee table
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES 
@@ -29,3 +33,5 @@ VALUES
 ('Anna', 'Lee', 2, 3),
 ('David', 'Nguyen', 3, null),
 ('Katherine', 'Wilson', 4, 4);
+
+SELECT * FROM employee;

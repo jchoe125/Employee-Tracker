@@ -6,7 +6,7 @@ USE employee_db;
 -- Creating department table, setting department(id) as primary key
 CREATE TABLE department (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(30) NOT NULL
+    department_name VARCHAR(30) NOT NULL
 );
 
 -- Creating role table, setting department_id as foreign key to department(id), role(id) as primary key
